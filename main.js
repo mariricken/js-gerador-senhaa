@@ -26,7 +26,8 @@ const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 function geraSenha(){
     let numeroAleatorio = Math.random()*letrasMaiusculas.length;
-    
+    console.log(numeroAleatorio);
+
 }
 
 campoSenha.value = letrasMaiusculas;

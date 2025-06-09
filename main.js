@@ -5,7 +5,7 @@ let tamanhoSenha = 12;
 
 const botoes = document.querySelectorAll('.parametro-senha_botao');
 botoes[0].onclick = diminuirTamanho;
-botoes[0].onclick = aumentarTamanho;
+botoes[1].onclick = aumentarTamanho;
 
 console.log(botoes);
 

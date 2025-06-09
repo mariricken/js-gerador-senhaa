@@ -20,3 +20,13 @@ function aumentarTamanhoTamanho(){
     tamanhoSenha = tamanhoSenha + 1;
     numeroSenha.textContent = tamanhoSenha;
 }
+const campoSenha + document.querySelector('#campoSenha');
+
+const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+function geraSenha(){
+    let numeroAleatorio = Math.random()*letrasMaiusculas.length;
+    
+}
+
+campoSenha.value = letrasMaiusculas;
